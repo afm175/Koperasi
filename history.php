@@ -320,7 +320,7 @@ $user = $_GET['user'];
 				</form> -->
 				<table class="table table-striped">
 					<thead>
-						
+
 						<tr>
 							<th scope="col">No</th>
 							<th scope="col">Username</th>
@@ -453,8 +453,6 @@ $user = $_GET['user'];
 					while ($d = mysqli_fetch_array($data)) {
 						# code...
 					?>
-
-
 						<tr>
 							<th scope="row"><?php echo $no++; ?></th>
 							<td><?php echo $d['username']; ?>
@@ -463,14 +461,10 @@ $user = $_GET['user'];
 							<td>
 								<button type="button" class="btn btn-info"><a href="gadai/edit-gadai.php?id=<?php echo $d['id_gadai']; ?>">EDIT</a></button>
 								<button type="button" class="btn btn-danger"><a href="proses.php?action=deletegadai&id=<?php echo $d['id_gadai']; ?>" onclick="alert('Berhasil Menghapus Data')">Delete</a></button>
-
 							</td>
 						</tr>
-
-
 					<?php
 					}
-
 					?>
 				</table>
 			</div>

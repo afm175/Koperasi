@@ -283,27 +283,11 @@ $user = $_GET['user'];
     </nav>
     <!-- Button trigger modal -->
 
-
     <!-- Modal -->
 
     <div class="container-his">
 
-        <!-- <div class="nav nav-tabs" id="nav-tab" role="tablist" style="background-color: #78DEC7;">
-			<button class="nav-link simpin active" onclick="active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-				Pinjam Dana
-			</button>
-			<button class="nav-link simpin" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-				Simpan Dana
-			</button>
-			<button class="nav-link simpin" id="nav-non-tab" data-bs-toggle="tab" data-bs-target="#nav-non" type="button" role="tab" aria-controls="nav-non" aria-selected="false">
-				Gadai Barang
-			</button> -->
-    </div>
-
-    <!-- pinjam start -->
-    <div class="container-his">
-
-
+        <!-- pinjam start -->
         <form action="search.php" method="get">
             <label>Cari data:</label>
             <input type="text" name="cari">
@@ -412,7 +396,6 @@ $user = $_GET['user'];
 
             ?>
         </table>
-
         <!-- simpan end -->
 
         <!-- gadai start -->
@@ -464,13 +447,12 @@ $user = $_GET['user'];
         </table>
         <!-- gadai end -->
     </div>
-    <!-- Bagian kwitansi -->
 
+    <!-- Bagian kwitansi -->
 
     <!-- Button trigger modal -->
     <!-- </div> -->
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
